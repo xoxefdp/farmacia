@@ -1,4 +1,7 @@
 package Modelo;
+
+import java.sql.SQLException;
+import javax.naming.NamingException;
 /**
  *
  * @author José Diaz
