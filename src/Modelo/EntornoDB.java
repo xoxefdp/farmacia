@@ -11,9 +11,9 @@ package Modelo;
  */
 public interface EntornoDB {
     
-    public final static String USER = "user=root";
-    public final static String PASS = "password=mysqlroot";
+    public final static String USER = "root";
+    public final static String PASS = "mysqlroot";
     public final static String DRIVER = "com.mysql.jdbc.Driver";
     public final static String URL = "jdbc:mysql://";
-    public final static String DB = "localhost/jdbctest";
+    public final static String DB = "localhost/farmacia";
 }
