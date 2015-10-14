@@ -38,7 +38,7 @@ public class ConexionDB implements EntornoDB{
 			// conn = DriverManager.getConnection("jdbc:db2:Sample","db2admin", "123");
 
 		Class.forName(DRIVER).newInstance();
-		connect = DriverManager.getConnection(URL+DB,USER,PASS);
+		connect = DriverManager.getConnection(URL_CONEXION,USER,PASS);
 		query = connect.createStatement();
 	}
 	
